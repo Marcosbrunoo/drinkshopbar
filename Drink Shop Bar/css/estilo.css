@@ -1,0 +1,129 @@
+body{
+    background-color: #0f1014;
+}
+    
+    .cabeçalho ul li{
+        list-style: none;
+}
+    .cabeçalho{
+    background-color: #0f1014;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    padding-right: 60px;
+    
+    }
+    
+    .cabeçalho ul{
+        display: flex;
+        flex-direction: row;
+       
+       padding-right: 100px;   
+    }
+    .img-grande{
+        width: 400px;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .botao{
+        text-decoration: none;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #179a0b;
+        transition: .5s;
+       
+    }
+     .botao:hover{
+        transition: .5s;
+        font-size: 20px;
+     }
+    
+    .logo{
+        width: 200px;
+        padding-left: 50px;
+    
+        }
+    
+        .texto1{
+            color: #5ce44f8a;
+            font-size: 10px;
+            
+        }
+
+        .drinks{
+            width: 300px;
+            border: 2px solid rgb(102, 255, 0);
+        }
+
+        .drinks:hover{
+            transition: .3s;
+            border: 4px solid rgb(102, 255, 0);
+        }
+
+        .fotos-drinks{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            justify-content: center;
+            gap: 90px;
+        }
+
+        .saiba-mais{
+            display: flex;
+            justify-content: center;
+            margin-top: 6%;
+            font-size: 25px;
+            transition: .3s;
+            
+        }
+        .saiba-mais:hover{
+            transition: .3s;
+            font-size: 30px;
+        }
+        .image-drink{
+            display: flex;
+            justify-content: center;
+        }
+        .drink-1{
+            width: 400px;
+            
+        }
+        .texto-info{
+            color: #5ce44f8a;
+            display: flex;
+            justify-content:center ;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 30px; 
+        }
+        footer{
+            text-align: center;
+            background-color: #ffffff7c;
+            color: rgb(99, 230, 48);
+            padding: 5px;
+            margin-top: 50px;
+           margin-bottom: 30px;
+           font-size: 20px;
+          }
+
+          .contato{
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+            margin-top: 100px;
+            align-items: center;
+            
+          }
+                  
+          .logo-contato{
+            width: 200px;
+            
+          }
+          
+          .texto-contato{
+            color: rgb(99, 230, 48);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              
+          }
+          
